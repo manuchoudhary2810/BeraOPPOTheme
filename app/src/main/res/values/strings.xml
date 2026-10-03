@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">A3 Icon Pack</string>
+    <string name="pack_status">Includes icons for common OPPO apps and matching app mappings.</string>
+    <string name="apply_hint">Choose this pack in a launcher that supports icon packs. ColorOS default-launcher support is not guaranteed; use a compatible launcher if it does not appear.</string>
+</resources>

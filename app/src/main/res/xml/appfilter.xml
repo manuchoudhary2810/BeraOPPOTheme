@@ -1,0 +1,31 @@
+<resources>
+    <iconback img="common" />
+    <iconmask img="iconmask" />
+
+    <item component="ComponentInfo{com.coloros.calculator/com.coloros.calculator.Calculator}" drawable="calculator" />
+    <item component="ComponentInfo{com.google.android.calculator/com.android.calculator2.Calculator}" drawable="calculator" />
+    <item component="ComponentInfo{com.coloros.calendar/com.coloros.calendar.MainActivity}" drawable="calendar" />
+    <item component="ComponentInfo{com.google.android.calendar/com.android.calendar.AllInOneActivity}" drawable="calendar" />
+    <item component="ComponentInfo{com.heytap.market/com.heytap.market.activity.MainActivity}" drawable="app_market" />
+    <item component="ComponentInfo{com.oppo.market/com.oppo.market.MainActivity}" drawable="app_market" />
+    <item component="ComponentInfo{com.oplus.camera/com.oplus.camera.Camera}" drawable="camera" />
+    <item component="ComponentInfo{com.oppo.camera/com.oppo.camera.Camera}" drawable="camera" />
+    <item component="ComponentInfo{com.coloros.alarmclock/com.coloros.alarmclock.AlarmClock}" drawable="clock" />
+    <item component="ComponentInfo{com.google.android.deskclock/com.android.deskclock.DeskClock}" drawable="clock" />
+    <item component="ComponentInfo{com.coloros.compass/com.coloros.compass.CompassActivity}" drawable="compass" />
+    <item component="ComponentInfo{com.oplus.fmradio/com.oplus.fmradio.FmRadioMainActivity}" drawable="fm" />
+    <item component="ComponentInfo{com.coloros.gallery3d/com.coloros.gallery3d.app.MainActivity}" drawable="gallery" />
+    <item component="ComponentInfo{com.heytap.browser/com.heytap.browser.BrowserActivity}" drawable="internet" />
+    <item component="ComponentInfo{com.android.mms/com.android.mms.ui.ConversationListActivity}" drawable="messages" />
+    <item component="ComponentInfo{com.google.android.apps.messaging/com.google.android.apps.messaging.ui.ConversationListActivity}" drawable="messages" />
+    <item component="ComponentInfo{com.heytap.music/com.heytap.music.activity.MainActivity}" drawable="music" />
+    <item component="ComponentInfo{com.coloros.filemanager/com.coloros.filemanager.FileManagerActivity}" drawable="my_files" />
+    <item component="ComponentInfo{com.android.dialer/com.android.dialer.main.impl.MainActivity}" drawable="phone" />
+    <item component="ComponentInfo{com.android.dialer/com.android.dialer.DialtactsActivity}" drawable="phone" />
+    <item component="ComponentInfo{com.google.android.dialer/com.google.android.dialer.extensions.GoogleDialtactsActivity}" drawable="phone" />
+    <item component="ComponentInfo{com.coloros.soundrecorder/com.coloros.soundrecorder.SoundRecorder}" drawable="recorder" />
+    <item component="ComponentInfo{com.android.settings/com.android.settings.Settings}" drawable="settings" />
+    <item component="ComponentInfo{com.heytap.themestore/com.heytap.themestore.activity.MainActivity}" drawable="theme_store" />
+    <item component="ComponentInfo{com.heytap.video/com.heytap.video.activity.MainActivity}" drawable="video" />
+    <item component="ComponentInfo{com.coloros.weather2/com.coloros.weather2.WeatherMainActivity}" drawable="weather" />
+</resources>
