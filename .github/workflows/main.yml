@@ -1,0 +1,38 @@
+name: Build APK
+
+on:
+workflow_dispatch
+push:
+  branches:
+   -main
+
+   jobs:
+     build:
+      runs_on: ubuntu-latest
+
+      step:
+       -name: Checkout project
+       uses: action/checkout@v4
+
+       -name: Set up JDK
+       uses: action/setup-java@v4
+       with: 
+          diatribution: temurin
+          java-version: '17'
+
+          -name: set up Android SDK
+           uses: android-action/setup-android@v3
+
+           -name: Install Gradle
+            uses: gradle/action/setup-gradle@v4
+            with:
+              gradle-version: '8.7'
+
+           -name: Build APK
+           run: gradle assembleDebug--stacktrace
+
+           -name: Upload APK
+           uses: action/upload-artifect@v4
+           with:
+             name: Bera OPPOTheme-APK
+             path: app/build/outputs/apk/debug/*.apk
