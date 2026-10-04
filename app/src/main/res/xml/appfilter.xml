@@ -1,6 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <iconback img="common" />
-    <iconmask img="iconmask" />
+
+    <!-- Frame on top of icons; the middle circle of common.png is transparent -->
+    <iconupon img1="common" />
+    <scale factor="0.6" />
 
     <item component="ComponentInfo{com.coloros.calculator/com.coloros.calculator.Calculator}" drawable="calculator" />
     <item component="ComponentInfo{com.google.android.calculator/com.android.calculator2.Calculator}" drawable="calculator" />
@@ -28,4 +31,5 @@
     <item component="ComponentInfo{com.heytap.themestore/com.heytap.themestore.activity.MainActivity}" drawable="theme_store" />
     <item component="ComponentInfo{com.heytap.video/com.heytap.video.activity.MainActivity}" drawable="video" />
     <item component="ComponentInfo{com.coloros.weather2/com.coloros.weather2.WeatherMainActivity}" drawable="weather" />
+
 </resources>
